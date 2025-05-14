@@ -1,0 +1,45 @@
+# Nmap 7.94SVN scan initiated Wed May 14 03:04:11 2025 as: nmap -sS -sV -Pn -oN /home/iamniko/SOC_BruteForce_SSH/nmap_ssh_scan.txt 192.168.1.78
+Nmap scan report for 192.168.1.78
+Host is up (0.018s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 9.2p1 Debian 2+deb12u5 (protocol 2.0)
+5000/tcp open  upnp?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5000-TCP:V=7.94SVN%I=7%D=5/14%Time=6823EC14%P=x86_64-pc-linux-gnu%r
+SF:(GetRequest,199,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20Werkzeug/3\.1\.3\
+SF:x20Python/3\.11\.2\r\nDate:\x20Wed,\x2014\x20May\x202025\x2001:04:20\x2
+SF:0GMT\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:
+SF:\x20235\r\nConnection:\x20close\r\n\r\n<!DOCTYPE\x20html>\n<html>\n<hea
+SF:d>\n\t<title>Home</title>\n\n</head>\n<body>\n\t<h1>Welcome\x20a\x20la\
+SF:x20App</h1>\n\t<p>Seleccione\x20una\x20opcion</p>\n\t<ul>\n\t\t<li><a\x
+SF:20href=\"/register\">Register</a></li>\n\t\t<li><a\x20href=\"/login\">L
+SF:ogin</a></li>\n\t</li>\n\n</body>\n</html>")%r(RTSPRequest,16C,"<!DOCTY
+SF:PE\x20HTML>\n<html\x20lang=\"en\">\n\x20\x20\x20\x20<head>\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20<meta\x20charset=\"utf-8\">\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20<title>Error\x20response</title>\n\x20\x20\x20\x20</head>\n\
+SF:x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20\x20\x20<h1>Error\x20res
+SF:ponse</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20code:\x20400</p
+SF:>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Message:\x20Bad\x20request\x20ver
+SF:sion\x20\('RTSP/1\.0'\)\.</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Error
+SF:\x20code\x20explanation:\x20400\x20-\x20Bad\x20request\x20syntax\x20or\
+SF:x20unsupported\x20method\.</p>\n\x20\x20\x20\x20</body>\n</html>\n")%r(
+SF:HTTPOptions,C7,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20Werkzeug/3\.1\.3\x
+SF:20Python/3\.11\.2\r\nDate:\x20Wed,\x2014\x20May\x202025\x2001:04:36\x20
+SF:GMT\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nAllow:\x20GET,\x
+SF:20OPTIONS,\x20HEAD\r\nContent-Length:\x200\r\nConnection:\x20close\r\n\
+SF:r\n")%r(Help,167,"<!DOCTYPE\x20HTML>\n<html\x20lang=\"en\">\n\x20\x20\x
+SF:20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20charset=\"utf-8\
+SF:">\n\x20\x20\x20\x20\x20\x20\x20\x20<title>Error\x20response</title>\n\
+SF:x20\x20\x20\x20</head>\n\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20<h1>Error\x20response</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p
+SF:>Error\x20code:\x20400</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Message:
+SF:\x20Bad\x20request\x20syntax\x20\('HELP'\)\.</p>\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20<p>Error\x20code\x20explanation:\x20400\x20-\x20Bad\x20reque
+SF:st\x20syntax\x20or\x20unsupported\x20method\.</p>\n\x20\x20\x20\x20</bo
+SF:dy>\n</html>\n");
+MAC Address: 2C:CF:67:81:27:15 (Unknown)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 14 03:05:49 2025 -- 1 IP address (1 host up) scanned in 97.72 seconds

