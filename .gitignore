@@ -1,0 +1,44 @@
+# Ignorar base de datos y capturas de red
+
+# Archivos de captura de red
+*.pcap
+*.pcapng
+
+# Logs del sistema o herramientas
+*.log
+
+# Archivos de base de datos
+*.db
+instance/
+*.sqlite
+*.sqlite3
+
+# Entornos virtuales de Python
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Backups y archivos temporales
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Archivos del sistema o IDEs
+.idea/
+.vscode/
+*.code-workspace
+
+# Archivos exportados
+*.pdf
+*.png
+*.jpg
+
+*.db
+*.pcap
+
+# Ignorar cachés y carpetas temporales
+
+__pycache__/

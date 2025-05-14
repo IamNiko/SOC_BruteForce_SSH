@@ -50,9 +50,9 @@ nmap --script ssh-brute -p22 192.168.1.X
 tcpdump -i wlan0 port 22 -w pcap/ataque.pcap
 ```
 
-4. Verificar logs en `/var/log/auth.log`
+4. Verificar los registros en `/var/log/auth.log`
 
-5. Aplicar mitigación:
+5. Aplicar medidas de mitigación:
 ```bash
 sudo ufw deny 22
 sudo apt install fail2ban
